@@ -1,0 +1,72 @@
+.a, .b, .c, .d, .e, .f, .g, .h, .i {
+  background-color: #dfdfdf;
+  outline: solid 1px;
+}
+
+.a {
+  height: 75px;
+}
+
+.b {
+  height: 150px;
+}
+
+.c, .d {
+  height: 125px;
+}
+
+.e, .f, .g, .h {
+  height: 250px;
+  width: 240px;
+}
+
+.i {
+  height: 80px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 768px) {
+  .a {
+    width: 960px;
+    height: 100px;
+  }
+
+  .b {
+    float: left;
+    width: 200px;
+    height: 600px
+  }
+
+  .c, .d {
+    height: 200px;
+    width: 380px;
+  }
+
+  .e, .f, .g, .h {
+    height: 250px;
+    width: 190px;
+  }
+
+  .space{
+    width: 200px;
+  }
+
+  .i {
+    height: 150px;
+    width: 100%;
+  }
+
+  .flex-row_desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-row{
+    width: 50%;
+  }
+
+}

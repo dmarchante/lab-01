@@ -1,0 +1,120 @@
+/*vertical align text: https://vanseodesign.com/css/vertical-centering/ */
+
+.section-identifier {
+  text-align: center;
+}
+
+.a {
+  background-color: #008000;
+}
+
+.b {
+  background-color: #02a102;
+}
+
+.c {
+  background-color: #03be03;
+}
+
+.d {
+  background-color: #02dd02;
+}
+
+.e {
+  background-color: #06f506;
+}
+
+.f {
+  background-color: #39ff39;
+}
+
+.g {
+  background-color: #6bff6b;
+}
+
+.h {
+  background-color: #9afd9a;
+}
+
+.i {
+  background-color: #c4ffc4;
+}
+
+.a .section-identifier {
+  line-height: 75px;
+}
+
+.b .section-identifier {
+  line-height: 150px;
+}
+
+.c .section-identifier, .d .section-identifier {
+  line-height: 125px;
+}
+
+.e .section-identifier, .f .section-identifier, .g .section-identifier, .h .section-identifier  {
+  line-height: 250px;
+}
+
+.i .section-identifier {
+  line-height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .a {
+    background-color: #7979ff;
+  }
+  
+  .b {
+    background-color: #8484e2;
+  }
+  
+  .c {
+    background-color: #a7a7ff;
+  }
+  
+  .d {
+    background-color: #b2b2fc;
+  }
+  
+  .e {
+    background-color: #bebeff;
+  }
+  
+  .f {
+    background-color: #d0d0ff;
+  }
+  
+  .g {
+    background-color: #e1e1ff;
+  }
+  
+  .h {
+    background-color: #e9e9fa;
+  }
+  
+  .i {
+    background-color: #ffffff;
+  }
+
+  .a .section-identifier {
+    line-height: 100px;
+  }
+  
+  .b .section-identifier {
+    line-height: 600px;
+  }
+  
+  .c .section-identifier, .d .section-identifier {
+    line-height: 200px;
+  }
+  
+  .e .section-identifier, .f .section-identifier, .g .section-identifier, .h .section-identifier  {
+    line-height: 250px;
+  }
+  
+  .i .section-identifier {
+    line-height: 150px;
+  }
+  
+}
