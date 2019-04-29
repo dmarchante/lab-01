@@ -60,7 +60,45 @@
   line-height: 80px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .a {
+    background-color: #f84e4e;
+  }
+  
+  .b {
+    background-color: #fc5f5f;
+  }
+  
+  .c {
+    background-color: #ff7373;
+  }
+  
+  .d {
+    background-color: #fa8181;
+  }
+  
+  .e {
+    background-color: #ff9898;
+  }
+  
+  .f {
+    background-color: #ffaeae;
+  }
+  
+  .g {
+    background-color: #fdc0c0;
+  }
+  
+  .h {
+    background-color: #ffd3d3;
+  }
+  
+  .i {
+    background-color: #ffe7e7;
+  }
+}
+
+@media only screen and (min-width: 961px) {
   .a {
     background-color: #7979ff;
   }
